@@ -3,9 +3,6 @@ exports.apiRequired = 1
 exports.description = "Show 404 message and auto redirect back or close"
 exports.repo = "Hug3O/404-jumper"
 
-// 完全移除配置
-exports.config = {}
-
 exports.init = api => ({
     middleware(ctx) {
         if (!ctx.path.startsWith(api.Const.SPECIAL_URI)
