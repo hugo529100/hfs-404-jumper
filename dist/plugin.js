@@ -1,7 +1,7 @@
 exports.version = 1
 exports.apiRequired = 1
 exports.description = "Show 404 message and auto redirect back or close"
-exports.repo = "Hug3O/404-jumper"
+exports.repo = "hugo529100/hfs-404-jumper"
 
 exports.init = api => ({
     middleware(ctx) {
